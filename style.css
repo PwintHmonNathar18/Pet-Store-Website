@@ -11,14 +11,6 @@ header {
     color: white;
 }
 
-footer{
-    background-color: #4CAF50;
-    padding: 20px;
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
 nav a {
     margin: 0 15px;
     text-decoration: none;
@@ -32,6 +24,7 @@ nav a {
 
 .pet-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
